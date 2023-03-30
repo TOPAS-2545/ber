@@ -1,21 +1,8 @@
 BER Package
 ============
 
-![Build Status](https://github.com/geoffgarside/ber/workflows/Go/badge.svg)
-[![GoDoc](https://godoc.org/github.com/geoffgarside/ber?status.svg)](http://godoc.org/github.com/geoffgarside/ber)
+This package is a fork of the standard library `encoding/asn1` package. 
 
-This package is a fork of the standard library `encoding/asn1` package, adding Basic Encoding Rules support for use with [`github.com/k-sone/snmpgo`](https://github.com/k-sone/snmpgo).
-
-Golang Compatibility
---------------------
-
-This package aims to maintain compatibility with earlier versions of Golang as best as possible.
-Travis CI builds ensure the below compatibility.
-
-| Version | Compatibility |
-| ------- | ------------- |
-| 1.0.0   | Go 1.5 - 1.8  |
-| 1.1.x   | Go 1.8 - 1.14 |
 
 License
 -------
